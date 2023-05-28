@@ -7,7 +7,7 @@
     "routes": [
        { "src": "/products", "dest": "/index.js" },
        { "src": "/products/(.*)", "dest": "/index.js" },
-       { "src": "/", "dest": "builds/index.html" },
+       { "src": "/", "dest": "build/index.html" },
        { "src": "/(.+)", "dest": "build/$1" }
     ]
  }
