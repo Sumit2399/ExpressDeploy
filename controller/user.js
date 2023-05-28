@@ -1,6 +1,6 @@
 const fs=require('fs')
 const path=require('path')
-const i=fs.readFileSync('index.html','utf-8')
+//const i=fs.readFileSync('index.html','utf-8')
 const i1=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../data.json'),'utf-8'))
 const users=i1.users;
 
